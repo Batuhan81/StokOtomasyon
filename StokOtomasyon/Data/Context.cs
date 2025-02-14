@@ -30,6 +30,12 @@ namespace StokOtomasyon.Data
 			modelBuilder.Entity<Urun>()
 				.Property(k => k.birimFiyat)
 				.HasPrecision(18, 2);
+			modelBuilder.Entity<UrunFiyatGecmisi>()
+				.Property(k => k.eskifiyat)
+				.HasPrecision(18, 2);
+			modelBuilder.Entity<UrunFiyatGecmisi>()
+				.Property(k => k.yenifiyat)
+				.HasPrecision(18, 2);
 
 			base.OnModelCreating(modelBuilder);
 		}

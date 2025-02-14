@@ -119,9 +119,31 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\Context.cs" />
+    <Compile Include="Data\Depo.cs" />
+    <Compile Include="Data\DepoTransfer.cs" />
+    <Compile Include="Data\DepoUrun.cs" />
+    <Compile Include="Data\DepoYetkili.cs" />
+    <Compile Include="Data\Fatura.cs" />
+    <Compile Include="Data\FaturaDetay.cs" />
+    <Compile Include="Data\Iade.cs" />
+    <Compile Include="Data\IadeDetay.cs" />
+    <Compile Include="Data\Kargo.cs" />
+    <Compile Include="Data\KargoTakip.cs" />
     <Compile Include="Data\Kategori.cs" />
+    <Compile Include="Data\KategoriUrun.cs" />
     <Compile Include="Data\KdvOrani.cs" />
+    <Compile Include="Data\Kullanici.cs" />
+    <Compile Include="Data\Musteri.cs" />
+    <Compile Include="Data\Odeme.cs" />
+    <Compile Include="Data\OdemeTaksit.cs" />
+    <Compile Include="Data\Siparis.cs" />
+    <Compile Include="Data\SiparisDetay.cs" />
+    <Compile Include="Data\StokHareket.cs" />
+    <Compile Include="Data\Tedarikci.cs" />
+    <Compile Include="Data\TransferDetay.cs" />
     <Compile Include="Data\Urun.cs" />
+    <Compile Include="Data\UrunFiyatGecmisi.cs" />
+    <Compile Include="Data\UrunTedarikci.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
